@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly when todoItems is undefined 1`] = `<ul />`;
+
+exports[`should render correctly with todoItems 1`] = `
+<ul>
+  <TodoItem
+    completed={true}
+    index={0}
+    key="0"
+    onClick={[Function]}
+    text="One"
+  />
+  <TodoItem
+    completed={true}
+    index={1}
+    key="1"
+    onClick={[Function]}
+    text="Two"
+  />
+</ul>
+`;

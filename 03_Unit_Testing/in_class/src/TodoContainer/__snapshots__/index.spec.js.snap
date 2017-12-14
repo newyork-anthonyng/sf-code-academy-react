@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should add a new todo item when I click on the button 1`] = `
+<div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="Expedia"
+    />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Add todo item
+    </button>
+  </div>
+  <TodoList
+    onTodoItemClick={[Function]}
+    todoItems={
+      Array [
+        Object {
+          "completed": true,
+          "text": "Walk dog",
+        },
+        Object {
+          "completed": true,
+          "text": "Learn react",
+        },
+        Object {
+          "completed": false,
+          "text": "Expedia",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`should input element when I type in it 1`] = `
+<div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="Expedia"
+    />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Add todo item
+    </button>
+  </div>
+  <TodoList
+    onTodoItemClick={[Function]}
+    todoItems={
+      Array [
+        Object {
+          "completed": true,
+          "text": "Walk dog",
+        },
+        Object {
+          "completed": true,
+          "text": "Learn react",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`should toggle the completed state of a TodoItem when I click on the TodoItem 1`] = `
+<TodoContainer>
+  <div>
+    <div>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Add todo item
+      </button>
+    </div>
+    <TodoList
+      onTodoItemClick={[Function]}
+      todoItems={
+        Array [
+          Object {
+            "completed": false,
+            "text": "Walk dog",
+          },
+          Object {
+            "completed": true,
+            "text": "Learn react",
+          },
+        ]
+      }
+    >
+      <ul>
+        <TodoItem
+          completed={false}
+          index={0}
+          key="0"
+          onClick={[Function]}
+          text="Walk dog"
+        >
+          <li
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "black",
+                "cursor": "pointer",
+                "textDecoration": "",
+              }
+            }
+          >
+            Walk dog
+          </li>
+        </TodoItem>
+        <TodoItem
+          completed={true}
+          index={1}
+          key="1"
+          onClick={[Function]}
+          text="Learn react"
+        >
+          <li
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "green",
+                "cursor": "pointer",
+                "textDecoration": "line-through",
+              }
+            }
+          >
+            Learn react
+          </li>
+        </TodoItem>
+      </ul>
+    </TodoList>
+  </div>
+</TodoContainer>
+`;

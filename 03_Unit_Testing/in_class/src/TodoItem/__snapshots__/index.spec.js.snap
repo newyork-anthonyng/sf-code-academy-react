@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have correct movie 1`] = `
+Array [
+  Object {
+    "ageRating": 12,
+    "name": "The Dark Knight",
+    "rating": 7,
+  },
+  Object {
+    "ageRating": 14,
+    "name": "Up",
+    "rating": 10,
+  },
+]
+`;
+
+exports[`should render correctly when completed 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "green",
+      "cursor": "pointer",
+      "textDecoration": "line-through",
+    }
+  }
+>
+  Walk dog
+</li>
+`;
+
+exports[`should render correctly when not completed 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "black",
+      "cursor": "pointer",
+      "textDecoration": "",
+    }
+  }
+>
+  Walk dog
+</li>
+`;
+
+exports[`should render correctly when not completed 2`] = `
+Object {
+  "foo": "bar",
+}
+`;
+
+exports[`should run callback when clicked 1`] = `
+Array [
+  Array [
+    42,
+  ],
+  Array [
+    42,
+  ],
+  Array [
+    52,
+    11,
+  ],
+]
+`;

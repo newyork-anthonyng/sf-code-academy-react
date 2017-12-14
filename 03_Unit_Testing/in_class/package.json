@@ -1,0 +1,37 @@
+{
+  "name": "in_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-to-json": "^3.1.2",
+    "express": "^4.16.1",
+    "jest": "^21.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-16": "^1.0.1",
+    "react-test-renderer": "^16.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "build.watch": "webpack --watch",
+    "test": "jest",
+    "test.watch": "jest --watch",
+    "test.cover": "jest --coverage",
+    "cypress": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

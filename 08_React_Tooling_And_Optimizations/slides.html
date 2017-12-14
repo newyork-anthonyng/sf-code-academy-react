@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../reveal.js-3.5.0/css/reveal.css">
+    <link rel="stylesheet" href="../reveal.js-3.5.0/css/theme/night.css">
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>🦉 Code Academy: React</section>
+
+        <!-- Logistics -->
+        <section>
+          <div>Slack Room <pre><code>#sf-code-academy-react</code></pre></div>
+          <div>Github <pre><code>https://ewegithub.sb.karmalab.net/anng/sf-code-academy-react</code></pre></div>
+        </section>
+
+        <section>Today: 🔨 React Tooling and Optimizations</section>
+
+        <section>
+          React Dev Tools
+        </section>
+
+        <section>
+          Webpack bundle analyzer
+        </section>
+
+        <section>
+          Production mode
+        </section>
+
+        <section>
+          <section>React Component's Lifecycle</section>
+          <section>
+            <img src="./assets/shouldComponentUpdate.png" />
+          </section>
+          <section>
+            <ol>
+              <li>props/state updates</li>
+            </ol>
+          </section>
+          <section>
+            <ol>
+              <li>props/state updates</li>
+              <li>check if component should update</li>
+            </ol>
+          </section>
+          <section>
+            <ol>
+              <li>props/state updates</li>
+              <li>check if component should update</li>
+              <li>if so, call render method</li>
+            </ol>
+          </section>
+          <section>
+            <ol>
+              <li>props/state updates</li>
+              <li>check if component should update</li>
+              <li>if so, call render method</li>
+              <li>check if VDOM creates a difference between real DOM</li>
+            </ol>
+          </section>
+          <section>
+            <ol>
+              <li>props/state updates</li>
+              <li>check if component should update</li>
+              <li>if so, call render method</li>
+              <li>check if VDOM creates a difference between real DOM</li>
+              <li>if so, React will update the real DOM for you</li>
+            </ol>
+          </section>
+        </section>
+
+
+    </div>
+
+    <script type="text/javascript" src="../reveal.js-3.5.0/js/reveal.js"></script>
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>

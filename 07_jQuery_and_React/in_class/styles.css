@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+}
+
+header {
+  font-size: 50px;
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+#draggable {
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+}
